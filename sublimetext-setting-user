@@ -1,0 +1,80 @@
+{
+	"__undefined__": "__undefined__",
+	"align_indent": true,
+	"alignment_chars":
+	[
+		"="
+	],
+	"alignment_prefix_chars":
+	[
+		"+",
+		"-",
+		"&",
+		"|",
+		"<",
+		">",
+		"!",
+		"~",
+		"%",
+		"/",
+		"*",
+		"."
+	],
+	"alignment_space_chars":
+	[
+		"="
+	],
+	"auto_close_tags": false,
+	"auto_match_enabled": false,
+	"autocomplete": true,
+	"codeformatter_php_options":
+	{
+		"indent_size": 4,
+		"indent_style": "k&r",
+		"indent_with_tabs": false,
+		"new_line_after": "function"
+	},
+	"color_scheme": "Packages/User/tmtheme/colour-schemes/Monokai Soda.tmTheme",
+	"debug": true,
+	"enable_tab_scrolling": false,
+	"font_size": 9,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"FileDiffs",
+		"Vintage"
+	],
+	"match_brackets_angle": true,
+	"mid_line_tabs": true,
+	"move_to_limit_on_up_down": true,
+	"open_new_tabs_at": "far_right",
+	"phpcs_command_on_save": false,
+	"phpcs_execute_on_save": false,
+	"phpcs_linter_command_on_save": false,
+	"phpcs_linter_run": false,
+	"phpcs_sniffer_run": false,
+	"phpmd_command_on_save": false,
+	"preview_on_click": false,
+	"rulers":
+	[
+		85,
+		95,
+		105
+	],
+	"scroll_past_end": false,
+	"shift_tab_unindent": true,
+	"sublimelinter_gutter_marks": true,
+	"sublimelinter_mark_style": "fill",
+	"sublimelinter_notes": true,
+	"sublimelinter_popup_errors_on_save": true,
+	"sublimelinter_syntax_map":
+	{
+		"PHP": "php",
+		"Python Django": "python"
+	},
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+

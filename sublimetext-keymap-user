@@ -1,0 +1,47 @@
+[
+    // BOOKMARK
+    { "keys": ["ctrl+b"], "command": "next_bookmark" },
+    { "keys": ["ctrl+shift+b"], "command": "prev_bookmark" },
+    { "keys": ["f2"], "command": "toggle_bookmark" },
+    { "keys": ["ctrl+alt+shift+f2"], "command": "clear_bookmarks" },
+
+    // Lint
+    { "keys": ["ctrl+shift+l"], "command": "sublimelinter", "args": {"action": "lint"} },
+
+    // CodeIntel
+    { "keys": ["ctrl+shift+l"], "command": "goto_php_definition" },
+
+    // CTAGS
+    {
+        "command": "navigate_to_definition",
+        "keys": ["ctrl+alt+]"]
+    },
+    {
+        "command": "jump_back",
+        "keys": ["alt+left"]
+    },
+
+    // MINIMAP
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap" },
+
+    // CODE FOLDING
+    { "keys": ["ctrl+shift+2"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["ctrl+shift+3"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["ctrl+shift+4"], "command": "fold_by_level", "args": {"level": 3} },
+    { "keys": ["ctrl+shift+5"], "command": "fold_by_level", "args": {"level": 4} },
+    { "keys": ["ctrl+shift+e"], "command": "unfold_all" },
+
+    // ALIGNMENT
+    { "keys": ["ctrl+alt+a"], "command": "alignment" }, // use alignment command when compatible with ST3
+
+    // CODE FORMATTER
+    { "keys": ["ctrl+alt+b"], "command": "code_formatter" },
+
+    { "keys": ["ctrl+0"], "command": "focus_side_bar" },
+    { "keys": ["ctrl+f12"], "command": "focus_side_bar" },
+    { "keys": ["ctrl+f11"], "command": "focus_group", "args": { "group": 0 } },
+
+    // NULL
+    {}
+]
+

@@ -1,0 +1,31 @@
+{
+	"PACKAGE-CONTROL": "---------------------------------------------------"
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"AlignTab",
+		"CodeFormatter",
+		"CTags",
+		"CTags for PHP",
+		"FileDiffs",
+		"Meld diff",
+		"Move Tabs",
+		"Package Control",
+		"PHP Namespace Command",
+		"PhpDoc",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Tabright",
+		"Theme - Soda",
+		"VAlign"
+	],
+	"repositories":
+	[
+		"https://sublime.wbond.net/alpha/packages.json",
+		"https://github.com/facelessuser/BracketHighlighter.git",
+		"https://github.com/SublimeLinter/SublimeLinter/tree/sublime-text-3"
+	]
+}
+
