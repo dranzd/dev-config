@@ -34,7 +34,7 @@
 		"indent_with_tabs": false,
 		"new_line_after": "function"
 	},
-	"color_scheme": "Packages/User/tmtheme/colour-schemes/Monokai Soda.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"debug": true,
 	"enable_tab_scrolling": false,
 	"font_size": 9,
