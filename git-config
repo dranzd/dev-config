@@ -1,25 +1,35 @@
-alias.co=checkout
-alias.st=status
-alias.br=branch
-alias.df=diff
-alias.lg=log
-alias.ci=commit
-alias.rb=rebase
-alias.meld=!~/bin/git-meld.pl
-alias.log1=log --graph --oneline --all
-alias.log2=log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
-alias.log3=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
-color.ui=auto
-color.branch.current=yellow reverse
-color.branch.local=yellow
-color.branch.remote=green
-color.diff.meta=yellow bold
-color.diff.frag=magenta bold
-color.diff.old=red bold
-color.diff.new=green bold
-color.diff.whitespace=red reverse
-color.status.added=yellow
-color.status.changed=green
-color.status.untracked=cyan
-core.whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[alias]
+        co = checkout
+        st = status
+        br = branch
+        df = diff
+        lg = log
+        ci = commit
+        rb = rebase
+        meld = !~/bin/git-meld.pl
+        log1 = log --graph --oneline --all
+        log2 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+        log3 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n'' %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 
+[color]
+        ui = auto
+
+[color.branch]
+        current = yellow reverse
+        local = yellow
+        remote = green
+
+[color.diff]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+        whitespace = red reverse
+
+[color.status]
+        added = yellow
+        changed = green
+        untracked = cyan
+
+[core]
+        whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
