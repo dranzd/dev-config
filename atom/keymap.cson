@@ -1,0 +1,12 @@
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-shift-down': 'editor:move-line-down'
+  'ctrl-shift-up': 'editor:move-line-up'
+  'ctrl-down': 'editor:scroll-down-without-moving-cursor',
+  'ctrl-up': 'editor:scroll-up-without-moving-cursor'
+'.platform-win32, .platform-linux':
+  'ctrl-0': 'tree-view:toggle-focus'
+  'alt-shift-a': 'simple-align:align'
+'.platform-linux':
+  'ctrl-alt-b': 'fuzzy-finder:toggle-buffer-finder'
+'.platform-linux atom-text-editor':
+  'shift-f2': 'bookmarks:toggle-bookmark'
