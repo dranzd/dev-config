@@ -1,0 +1,116 @@
+"*":
+  alignment: {}
+  "atom-alignment": {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "bc25a65c-67fa-4573-ab33-1d0532337166"
+      beautifyEntireFileOnSave: false
+  "atom-ctags":
+    buildTimeout: 120000
+    cmdArgs: "--exclude=**/node_modules/* --exclude=.git/* --php-kinds=cif --exclude=node_modules/* --exclude=app/module/**/vendor/* --exclude=**/app/module/**/vendor/*"
+  "atom-ide-ui":
+    "atom-ide-debugger":
+      showDebuggerOnBpSet: false
+    "atom-ide-diagnostics-ui": {}
+    "atom-ide-outline-view": {}
+  "atom-package-deps":
+    ignored: []
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "bracket-matcher":
+    autocompleteBrackets: false
+    wrapSelectionsInBrackets: false
+  core:
+    allowPendingPaneItems: false
+    automaticallyUpdate: false
+    disabledPackages: [
+      "linter"
+      "valign"
+      "php-debug"
+      "github"
+      "open-on-github"
+      "git-diff"
+      "language-git"
+      "language-csharp"
+      "language-go"
+      "language-clojure"
+      "language-c"
+      "language-java"
+      "language-objective-c"
+      "language-perl"
+      "language-toml"
+      "intentions"
+      "symbol-gen"
+      "atom-ide-ui"
+      "atom-autocomplete-php"
+      "autocomplete-php"
+      "php-hyperclick"
+      "ide-php"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "vendor/"
+      "node_modules/"
+      "bower_components/"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    useTreeSitterParsers: true
+  editor:
+    atomicSoftTabs: false
+    autoIndentOnPaste: false
+    scrollPastEnd: true
+    scrollSensitivity: 80
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "8081f6db-5eb7-4656-88e3-3bf7a0fa93f4"
+  "git-diff": {}
+  "goto-definition": {}
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+    timeout: 60
+  "ide-php":
+    memoryLimit: "1M"
+    phpPath: "/usr/bin/php"
+  "linter-ui-default": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+    redrawDelay: 100
+  "php-debug":
+    ServerAddress: "osctest.loc"
+    ServerPort: 9000
+    currentPanelHeight: "517px"
+    currentPanelMode: "bottom"
+  "php-integrator-base":
+    general:
+      indexContinuously: false
+  "platformio-ide-terminal":
+    style:
+      animationSpeed: 100
+    toggles:
+      runInsertedText: false
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
+  "symbol-gen": {}
+  "symbols-tree-view":
+    defaultWidth: 400
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
+  "tree-view":
+    alwaysOpenExisting: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
