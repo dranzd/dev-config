@@ -61,5 +61,9 @@
         "key": "ctrl+alt+j",
         "command": "-bookmarks.jumpToPrevious",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.files.action.showActiveFileInExplorer",
     }
 ]
