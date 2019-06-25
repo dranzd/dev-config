@@ -33,7 +33,7 @@
         "command": "editor.action.transformToLowercase"
     },
     {
-        "key": "ctrl+shift+f2",
+        "key": "ctrl+shift+b",
         "command": "bookmarks.toggle",
         "when": "editorTextFocus"
     },
@@ -63,7 +63,16 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+alt+p",
+        "key": "ctrl+shift+\\",
         "command": "workbench.files.action.showActiveFileInExplorer",
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.gotoSymbol"
     }
 ]
