@@ -2,7 +2,8 @@
 [
     {
         "key": "ctrl+alt+a",
-        "command": "wwm.aligncode"
+        "command": "wwm.aligncode",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "ctrl+shift+down",
@@ -74,5 +75,10 @@
     {
         "key": "ctrl+r",
         "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "alt+shift+a",
+        "command": "yo1dog.cursor-align.alignCursors",
+        "when": "editorTextFocus"
     }
 ]
