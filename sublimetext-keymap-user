@@ -37,9 +37,11 @@
     // CODE FORMATTER
     { "keys": ["ctrl+alt+b"], "command": "code_formatter" },
 
+    // SIDE BAR ENHANCEMENTS
     { "keys": ["ctrl+0"], "command": "focus_side_bar" },
     { "keys": ["ctrl+f12"], "command": "focus_side_bar" },
     { "keys": ["ctrl+f11"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["ctrl+shift+\\"], "command": "reveal_in_side_bar", "caption": "Reveal in sidebar" },
 
     // NULL
     {}
