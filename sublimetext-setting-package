@@ -16,7 +16,8 @@
 		"SublimeLinter",
 		"Tabright",
 		"Theme - SoDaReloaded",
-		"VAlign"
+		"VAlign",
+		"Vue Syntax Highlight"
 	],
 	"repositories":
 	[
