@@ -1,0 +1,6 @@
+/^Content-type: multipart\/report; report-type=delivery-status\;/       REJECT no third-party DSNs
+/^Content-type: message\/delivery-status; /                             REJECT no third-party DSNs
+/^Return-Path: <>/              REJECT no third-party DNSs
+/^From:.*MAILER-DAEMON/         REJECT no third-party DNSs
+/^Message-ID:.*@(12345\.somewhere\.nodebalancer\.domain\.com)/
+        REJECT forged domain name in Message-ID: header: $1
